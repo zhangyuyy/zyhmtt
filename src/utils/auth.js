@@ -4,4 +4,4 @@ import storage from './Storage'
 const Heima = 'HeimaUser'
 export const getToken = () => storage.get(Heima)
 export const setToken = (token) => storage.set(Heima, token)
-export const removeToken = () => storage.remove(Heima)
+export const removeToken = () => storage.remove()
